@@ -1,0 +1,4 @@
+paises=input("Ingrese el nombre del pais:")
+paises = paises.split(',')
+lista_paises_ordenados = sorted(set(paises))
+print(f'El listado de paises es: {lista_paises_ordenados}')
